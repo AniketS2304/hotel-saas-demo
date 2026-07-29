@@ -1,0 +1,37 @@
+// ─── Hotel Configuration ──────────────────────────────────────────────────────
+export const HOTEL_CONFIG = {
+  name: 'Your Hotel Name',
+  tagline: 'Where Every Moment Becomes a Memory',
+  subTagline: 'Experience the art of genuine hospitality',
+  logo: 'YOUR LOGO',
+  phone: '+91 98765 43210',
+  whatsapp: '+919876543210',
+  email: 'info@yourhotel.com',
+  address: '12, Luxury Boulevard, City Centre, Mumbai — 400001',
+  mapLink: 'https://maps.google.com',
+  rating: 4.8,
+  totalReviews: 2847,
+  estYear: 2008,
+  totalRooms: 120,
+  totalTables: 20,
+  hours: {
+    breakfast: '7:00 AM – 10:30 AM',
+    lunch: '12:00 PM – 3:30 PM',
+    dinner: '7:00 PM – 11:30 PM',
+    bar: '12:00 PM – 12:00 AM',
+  },
+  hoursDisplay: 'Open Daily: 7:00 AM – 11:30 PM',
+  social: {
+    instagram: '#',
+    facebook: '#',
+    twitter: '#',
+    youtube: '#',
+    tripadvisor: '#',
+  },
+  stats: [
+    { label: 'Hotels Live', value: '500+' },
+    { label: 'Revenue Managed', value: '₹2Cr+' },
+    { label: 'Daily Orders', value: '10,000+' },
+    { label: 'Platform Rating', value: '4.9★' },
+  ],
+}
